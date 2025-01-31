@@ -8,7 +8,7 @@
 ## Install & Upgrade
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/dev-ir/xui-subscription-template/refs/heads/master/main.sh )
+bash <(curl -Ls https://raw.githubusercontent.com/hosseinbannaei/xui-subscription-template/refs/heads/master/main.sh )
 ```
 
 ## Configuration File

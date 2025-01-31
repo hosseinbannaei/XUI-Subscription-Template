@@ -43,7 +43,7 @@ install_dependencies() {
 clone_project() {
     echo "Cloning the project to $PROJECT_DIR..."
     sudo rm -rf "$PROJECT_DIR"
-    sudo git clone https://github.com/dev-ir/xui-subscription-template.git "$PROJECT_DIR"
+    sudo git clone https://github.com/hosseinbannaei/xui-subscription-template.git "$PROJECT_DIR"
     cd "$PROJECT_DIR" || exit
 }
 
@@ -102,6 +102,7 @@ menu(){
     echo -e "${GREEN}|Server Location:${NC} $SERVER_COUNTRY"
     echo -e "${GREEN}|Server IP:${NC} $SERVER_IP"
     echo -e "${GREEN}|Server ISP:${NC} $SERVER_ISP"
+    echo -e "${GREEN}|Forked by HB"
     echo "+-----------------------------------------------------------------------------------------------------------------------------+"                                        
     echo -e "${YELLOW}"
     echo -e "|  1  - Install Template"
